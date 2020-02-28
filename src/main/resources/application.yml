@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 961028
+    url: jdbc:mysql://localhost/demo_new?characterEncoding=utf8&useSSL=false
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+#server:
+#  context-path: /demo
